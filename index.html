@@ -1,0 +1,208 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+
+<!--head-->
+ <head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Tupac Amaru Shakur">
+  <meta name="keywords" content="2PAC, Tupac Shakur Rap, 90's Hip Hop">
+  <meta name="author" content="BH">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>2PAC</title>
+
+<!--font-->
+
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<!--head-->
+
+<body> 
+    
+ <!--nav-->
+        <div id="nav">
+<h2>
+     <a href="index.html">| HOME |</a>
+
+     <a href="biography.html"> BIOGRAPHY |</a>
+
+     <a href="discography.html"> DISCOGRAPHY |</a>
+    
+     <a href="contact.html"> CONTACT |</a>
+</h2>
+
+
+        <script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var nav = document.getElementById("nav");
+
+// Get the offset position of the navbar
+var sticky = nav.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    nav.classList.add("sticky")
+  } else {
+    nav.classList.remove("sticky");
+  }
+}</script>
+        
+        </div>
+ <!--nav-->
+
+<!--banner-->
+<div class="box banner">
+    
+      <a href="index.html"><img src="00_Images/200px2PAClogo.png" alt="2pac logo"></a> 
+</div>
+<!--banner-->
+           
+<!--quote-->
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width slides/quotes -->
+  <div class="mySlides fade">
+    <h1><q>No one knows my struggle, they only see the trouble. Not knowing how hard it is to carry on when no one loves you.</q></h1>
+    <p class="author">- Tupac Shakur</p>
+  </div>
+
+  <div class="mySlides fade">
+    <h1><q>If God give me breath for 20 more years, I see myself changing the world. Because my thought patterns are so opposite of what’s norm. So I would have to change the world or I would have to be changed by the world.</q></h1>
+      <p class="author">- Tupac Shakur</p>
+  </div>
+
+  <div class="mySlides fade">
+    <h1><q>All I’m trying to do is survive and make good out of the dirty, nasty, unbelievable lifestyle that they gave me.</q></h1>
+    <p class="author">- Tupac Shakur</p>
+  </div>
+    
+  <div class="mySlides fade">
+    <h1><q>I know it seems hard sometimes but remember one thing. Through every dark night, there’s a bright day after that. So no matter how hard it gets, stick your chest out, keep ya head up, and handle it.</q></h1>
+    <p class="author">- Tupac Shakur</p>
+  </div>
+
+  <!-- Next/prev buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- Dots/bullets/indicators -->
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+         
+<!--         fading slideshow js script-->
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 10000); 
+    // Change image every 10 seconds
+}
+</script>
+<!--         fading slideshow js script-->
+
+<!--quote-->
+           
+           <!--image parallax-->
+                         <div class="parallax">
+             <div class="imageparallax01"></div>
+             </div>
+<!--image parallax-->
+            
+<!--main   -->
+             <div class="main01">
+                 
+                 <a href="biography.html"><h3>BIOGRAPHY</h3></a>
+                 <h5>the story of Tupac Shakur</h5>
+               <div class="h9">
+                   Photo: Mark Peterson/Getty Images</div>
+             </div>
+<!--main   -->           
+    
+<!--image parallax-->
+                         <div class="parallax">
+             <div class="imageparallax02"></div>
+             </div>
+<!--image parallax-->
+            
+<!--main   -->
+             <div class="main01">
+                 
+                 <a href="discography"><h3>DISCOGRAPHY</h3></a>
+                 <h5>explore his music</h5>
+             </div>
+<!--main   -->
+
+<!--image parallax-->
+                         <div class="parallax">
+             <div class="imageparallax03"></div>
+             </div>
+<!--image parallax-->
+    
+<!--main   -->
+             <div class="main01">
+                 
+                 <a href="contact.html">
+                     <h3>CONTACT</h3></a>
+                 <h5>contact us here</h5>
+                 
+                 <div class="h9">Photo: Michael O'Neil/Getty Images</div>
+             </div>
+<!--main   -->
+    
+<!--image parallax-->
+                         <div class="parallax">
+             <div class="imageparallax04"></div>
+             </div>
+<!--image parallax-->
+        
+<!--footer-->
+   
+   <div class="footer">
+
+
+    <a href="index.html">HOME</a> 
+    <br>
+    <a href="biography.html">BIOGRAPHY</a>
+    <br>
+    <a href="discography.html">DISCOGRAPHY</a> 
+    <br>
+    <a href="contact.html">CONTACT</a>
+       
+    <br>
+    <hr>
+
+ | CC &#169; BH 2020 |
+</div><!--footer-->
+    
+
+</body>
+    

@@ -1,0 +1,601 @@
+
+/*site body*/
+body {
+    margin: auto;
+    color: #1b1b1b;
+    font-family: 'Open Sans', sans-serif;
+    background: url(00_Images/wallpapertest1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+    
+}/*site body*/
+
+/* ---- site grid ---- */
+
+.wrapper { 
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "banner banner banner"
+        "nav nav nav"
+        "quote quote quote"
+        "main main main"
+        "footer footer footer";
+}
+
+/* ---- site grid ---- */
+
+/* area margins */
+.quote, .parallax {
+    margin-right: 5px;
+    margin-left: 5px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+}
+
+/* area margins */
+
+/* area specifics */
+
+.main01 {
+    border-right-width: 20px;
+    border-left-width: 20px;
+    border-color: #24201F; 
+    height: auto;
+    padding-bottom: 2vw;
+    text-align: center;
+}
+
+.main02 {
+    border-right-width: 20px;
+    border-left-width: 20px;
+    border-color: #24201F; 
+    height: auto;
+    padding-bottom: 2vw;
+    padding-right: 4vw;
+    padding-left: 4vw;
+    text-align: center;
+}
+
+.main03 {
+    border-right-width: 20px;
+    border-left-width: 20px;
+    border-color: #24201F; 
+    height: auto;
+    text-align: center;
+    align-content: center;
+    padding-bottom: 5vw;
+}
+
+main04 {
+    border-right-width: 20px;
+    border-left-width: 20px;
+    border-color: #24201F; 
+    height: auto;
+    align-content: center;
+    padding-bottom: 5vw;
+    text-align: center;
+}
+
+
+.nav {
+    grid-area: nav;
+    font-size: 100%;
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    background-color: #1b1b1b;
+    overflow: hidden;
+}
+
+.banner {
+    grid-area: banner;
+    font-size: 100%;
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.footer {
+    grid-area: footer;
+    text-align: left;
+    color: #d3af71;
+    padding: 60px;
+    padding-top: 6vh;
+    background-color: #111111;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}/* Centered text */
+
+/* area specifics */
+
+.img 
+{
+    max-width:100%;
+    max-height:100%;
+}
+
+/*heading styling*/
+
+h1 {
+    color: white;
+}
+
+/*navigaion heading styling*/
+
+h2 {
+   font-size: 18px;   
+   text-align: center;
+   margin: auto;
+   background-color: #1b1b1b;
+   height: 4vh;
+   padding-top: 1.5vh;
+}
+
+/*navigaion heading styling*/
+
+h3 {
+   font-size: 55px;   
+   text-align: center;
+   font-family: 'UnifrakturCook', bold;
+   margin-top: 12px;
+   margin-bottom: 12px;
+   text-shadow: 3px 3px #d3af71;
+}
+
+h4 {
+   font-size: 55px;   
+   font-family: 'UnifrakturCook', bold;
+   margin-top: 12px;
+   margin-bottom: 12px;
+}
+
+h5 {
+   margin-top: 1.2vw;
+   font-size: 35px;  
+   color: #d3af71;
+   text-align: center;
+   font-family: 'UnifrakturCook', cursive;
+   text-decoration: underline;
+}
+
+h6 {
+   font-size: 30px;   
+   text-align: center;
+   font-family: 'UnifrakturCook', bold;
+   margin-top: 12px;
+   margin-bottom: 12px;
+   color: white;
+   text-shadow: 3px 3px #d3af71;
+   text-decoration: underline;
+}
+
+.h7{
+
+   font-size: 30px;   
+   text-align: center;
+   font-family: 'UnifrakturCook', bold;
+   margin-top: 12px;
+   margin-bottom: 12px;
+   color: white;
+   text-shadow: 3px 3px #d3af71;
+}
+
+.h8 {
+   font-size: 16px;   
+   text-align: center;
+   color: white;
+   border-left: 4vw;
+   border-right: 4vw;
+}
+
+.h9 {
+   font-size: 8px;   
+   text-align: center;
+   color: white;
+   opacity: 40%;
+}
+
+/*heading styling*/
+
+#googleForm {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-bottom: 5vw;
+}
+
+/*link styling*/
+
+a:link
+{
+    color: white;
+      text-decoration: none;
+}
+
+a:visited {
+    color: white;
+      text-decoration: none;
+}
+
+a:hover {
+    color: dimgrey;
+    transition: 0.45s;
+}
+
+a:active {
+    color: dimgrey;
+    text-decoration: underline;
+}
+
+/*link styling*/
+
+a1:link
+{
+    color: white;
+}
+
+a1:visited {
+    color: white;
+}
+
+a1:hover {
+    color: dimgray;
+    transition: 0.45s;
+}
+
+a1:active {
+    color: gray;
+}
+
+/*link styling*/
+
+/*image parallax styling index image parallax styling*/
+
+.imageparallax01 {
+  /* The image used */
+  background-image: url("00_Images/parallaximage01.jpg");
+
+  /* Set a specific height */
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imageparallax02 {
+  /* The image used */
+  background-image: url("00_Images/parallaximage02.jpg");
+
+  /* Set a specific height */
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*image parallax styling*/
+
+.imageparallax03 {
+  /* The image used */
+  background-image: url("00_Images/parallaximage03.jpg");
+
+  /* Set a specific height */
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*image parallax styling*/
+
+
+.imageparallax04 {
+  /* The image used */
+  background-image: url("00_Images/parallaximage04.jpg");
+
+  /* Set a specific height */
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*image parallax styling index image parallax styling*/
+
+/*image parallax styling biography image parallax styling*/
+
+.imageparallax05 {
+  /* The image used */
+  background-image: url("00_Images/parallaximage05.jpg");
+
+  /* Set a specific height */
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: auto;
+}
+
+.imageparallax06 {
+  /* The image used */
+  background-image: url("00_Images/parallaximage06.jpg");
+
+  /* Set a specific height */
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*image parallax styling*/
+
+.imageparallax07 {
+  /* The image used */
+  background-image: url("00_Images/parallaximage07.jpg");
+
+  /* Set a specific height */
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: auto;
+}
+
+/*image parallax styling*/
+
+
+.imageparallax08 {
+  /* The image used */
+  background-image: url("00_Images/parallaximage08.jpg");
+
+  /* Set a specific height */
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: auto;
+}
+
+.imageparallax09 {
+  /* The image used */
+  background-image: url("00_Images/parallaximage09.jpg");
+
+  /* Set a specific height */
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: auto;
+}
+
+.imageparallax10 {
+  /* The image used */
+  background-image: url("00_Images/parallaximage10.jpg");
+
+  /* Set a specific height */
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*image parallax styling*/
+
+.imageparallax11 {
+  /* The image used */
+  background-image: url("00_Images/parallaximage11.jpg");
+
+  /* Set a specific height */
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*image parallax styling*/
+
+
+.imageparallax12 {
+  /* The image used */
+  background-image: url("00_Images/parallaximage12.jpg");
+
+  /* Set a specific height */
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imageparallax13 {
+  /* The image used */
+  background-image: url("00_Images/parallaximage13.jpg");
+
+  /* Set a specific height */
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: auto;
+}
+
+.imageparallax14 {
+  /* The image used */
+  background-image: url("00_Images/parallaximage14.jpg");
+
+  /* Set a specific height */
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*image parallax styling*/
+
+.imageparallax15 {
+  /* The image used */
+  background-image: url("00_Images/parallaximage15.jpg");
+
+  /* Set a specific height */
+  height: 300px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: auto;
+}
+
+/*image parallax styling*/
+
+/*image parallax styling biography image parallax styling*/
+
+/*quote box styling*/
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #1b1b1b;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  margin-top: 50px;
+  height: 180px;
+  text-align: center;
+}
+
+/* Add an italic font style to all quotes */
+q {
+  font-style: italic;
+}
+
+/* author styling */
+.author {
+    color: grey;
+    font-style: italic;
+}
+
+/* Fading animation for quote slideshow*/
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3.5s;
+  animation-name: fade;
+  animation-duration: 3.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* Fading animation for quote slideshow*/
+
+/*p styling*/
+
+p01 {
+ text-align: center;
+}
+
+p2 {
+   padding-left: 120px;
+   padding-right: 120px;
+   font-size: 22px;   
+   text-align: center;
+   margin-top: 12px;
+   margin-bottom: 12px;
+   color: white;
+}
+
+p3 {
+   font-size: 16px;   
+   color: white;
+}
+
+/*p styling*/
+
+/*image responsive styling*/
+
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*image responsive styling*/
+
+/*sticky navigation*/
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/*sticky navigation*/
