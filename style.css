@@ -4,7 +4,7 @@ body {
     margin: auto;
     color: #1b1b1b;
     font-family: 'Open Sans', sans-serif;
-    background: url(00_Images/wallpapertest1.jpg) no-repeat center center fixed;
+    background: url(wallpapertest1.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -265,7 +265,7 @@ a1:active {
 
 .imageparallax01 {
   /* The image used */
-  background-image: url("00_Images/parallaximage01.jpg");
+  background-image: url("parallaximage01.jpg");
 
   /* Set a specific height */
   height: 300px;
@@ -279,7 +279,7 @@ a1:active {
 
 .imageparallax02 {
   /* The image used */
-  background-image: url("00_Images/parallaximage02.jpg");
+  background-image: url("parallaximage02.jpg");
 
   /* Set a specific height */
   height: 300px;
@@ -295,7 +295,7 @@ a1:active {
 
 .imageparallax03 {
   /* The image used */
-  background-image: url("00_Images/parallaximage03.jpg");
+  background-image: url("parallaximage03.jpg");
 
   /* Set a specific height */
   height: 300px;
@@ -312,7 +312,7 @@ a1:active {
 
 .imageparallax04 {
   /* The image used */
-  background-image: url("00_Images/parallaximage04.jpg");
+  background-image: url("parallaximage04.jpg");
 
   /* Set a specific height */
   height: 300px;
@@ -330,7 +330,7 @@ a1:active {
 
 .imageparallax05 {
   /* The image used */
-  background-image: url("00_Images/parallaximage05.jpg");
+  background-image: url("parallaximage05.jpg");
 
   /* Set a specific height */
   height: 300px;
@@ -344,7 +344,7 @@ a1:active {
 
 .imageparallax06 {
   /* The image used */
-  background-image: url("00_Images/parallaximage06.jpg");
+  background-image: url("parallaximage06.jpg");
 
   /* Set a specific height */
   height: 300px;
@@ -360,7 +360,7 @@ a1:active {
 
 .imageparallax07 {
   /* The image used */
-  background-image: url("00_Images/parallaximage07.jpg");
+  background-image: url("parallaximage07.jpg");
 
   /* Set a specific height */
   height: 300px;
@@ -377,7 +377,7 @@ a1:active {
 
 .imageparallax08 {
   /* The image used */
-  background-image: url("00_Images/parallaximage08.jpg");
+  background-image: url("parallaximage08.jpg");
 
   /* Set a specific height */
   height: 300px;
@@ -391,7 +391,7 @@ a1:active {
 
 .imageparallax09 {
   /* The image used */
-  background-image: url("00_Images/parallaximage09.jpg");
+  background-image: url("parallaximage09.jpg");
 
   /* Set a specific height */
   height: 300px;
@@ -405,7 +405,7 @@ a1:active {
 
 .imageparallax10 {
   /* The image used */
-  background-image: url("00_Images/parallaximage10.jpg");
+  background-image: url("parallaximage10.jpg");
 
   /* Set a specific height */
   height: 300px;
@@ -421,7 +421,7 @@ a1:active {
 
 .imageparallax11 {
   /* The image used */
-  background-image: url("00_Images/parallaximage11.jpg");
+  background-image: url("parallaximage11.jpg");
 
   /* Set a specific height */
   height: 300px;
@@ -438,7 +438,7 @@ a1:active {
 
 .imageparallax12 {
   /* The image used */
-  background-image: url("00_Images/parallaximage12.jpg");
+  background-image: url("parallaximage12.jpg");
 
   /* Set a specific height */
   height: 300px;
@@ -452,7 +452,7 @@ a1:active {
 
 .imageparallax13 {
   /* The image used */
-  background-image: url("00_Images/parallaximage13.jpg");
+  background-image: url("parallaximage13.jpg");
 
   /* Set a specific height */
   height: 300px;
@@ -466,7 +466,7 @@ a1:active {
 
 .imageparallax14 {
   /* The image used */
-  background-image: url("00_Images/parallaximage14.jpg");
+  background-image: url("parallaximage14.jpg");
 
   /* Set a specific height */
   height: 300px;
@@ -482,7 +482,7 @@ a1:active {
 
 .imageparallax15 {
   /* The image used */
-  background-image: url("00_Images/parallaximage15.jpg");
+  background-image: url("parallaximage15.jpg");
 
   /* Set a specific height */
   height: 300px;
